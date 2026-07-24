@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modulo 01 - Landing</title>
+</head>
+
+<body>
+    <header>
+        <img src="#" alt="#">
+        <h1>Mariano Saavedra</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Item 1</a></li>
+                <li><a href="#">Item 2</a></li>
+                <li><a href="#">Item 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>TITULO GRANDE</h2>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius magnam iste beatae, consequatur rerum
+                dolore? Harum, cum eos velit repellendus eveniet, expedita accusamus culpa obcaecati, tempora explicabo
+                magnam quod nisi dolore. Odit tempore nesciunt nostrum cupiditate non labore deserunt quae culpa
+                distinctio inventore iste aliquid temporibus rem, reiciendis numquam quasi?</p>
+
+            <button>Comprar</button>
+        </section>
+
+        <section>
+            <h2>Caracteristicas</h2>
+            <ul>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Precios</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2>Contact</h2>
+
+            <form action="/registro" method="post">
+                <label for="user">Usuario</label>
+                <input type="text" id="user" name="user" required minlength="5" maxlength="15">
+                <label for="pass">Contraseña</label>
+                <input type="password" name="pass" id="pass" required minlength="8">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <label for="pais">País</label>
+                <select name="pais" id="pais">
+                    <option value="AR">Argentina</option>
+                    <option value="UY">Uruguay</option>
+                    <option value="CH">Chile</option>
+                </select>
+
+                <label for="terminos">
+                    Acepto los terminos y condiciones
+                    <input type="checkbox" name="terminos" id="terminos">
+                </label>
+
+                <button type="submit">Crear cuenta</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <small>© 2026 Mariano Saavedra</small>
+
+        <a href="#">Legales</a>
+    </footer>
+</body>
+
+</html>
