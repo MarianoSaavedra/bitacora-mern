@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+}
+
+:root {
+	--color-primario: #118819;
+	--color-texto: 330021;
+	--espacio: 16px;
+	--radio: 8px;
+}
+
+body {
+	font-family: "Londrina Shadow", sans-serif;
+}
+
+header {
+	background-color: rosybrown;
+}
+
+nav {
+	background-color: royalblue;
+
+	a {
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: white;
+	}
+}
